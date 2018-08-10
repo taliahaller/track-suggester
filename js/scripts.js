@@ -32,7 +32,23 @@ $(document).ready(function() {
         el_3.value = sel_3.value;
     }
 
-});
+var nel = el.value = sel.value;
+var nel_2 = el_2.value = sel_2.value;
+var nel_3 = el_3.value = sel_3.value;
+
+  var userInput = nel + nel_2 + nel_3;
+
+  // alert(userInput);
+  $("button#submit").submit(function() {
+        if (userInput === PFU) {
+    $('#css_track').show();
+  // } else if (userInput === PBI) {
+  //         $('#ruby_track').show();
+  //       } else  (userInput === PBD) {
+  //         $('#csharp_track').show();
+  }
+    });
+  });
 // immediate function to preserve global namespace
 
 
