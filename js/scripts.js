@@ -24,15 +24,15 @@ $(document).ready(function() {
       // alert(userInput);
 
     event.preventDefault();
-    if (userInput === "PFUsb" || userInput === "SFUsb") {
+    if (userInput === "PFIsb" || userInput === "PFUsb" || userInput === "PFUss" || userInput === "PFUbb" || userInput === "SFUsb" || userInput === "SFUss" || userInput === "SFUbb") {
       $('#ruby_track').hide();
       $('#csharp_track').hide();
       $('#css_track').show();
-    } else if (userInput === "PBIsb") {
+    } else if (userInput === "PBIsb" || userInput === "PBIss" || userInput === "PBIbb" || userInput === "PFIss" || userInput === "PFIbb" || userInput === "PFIbr" || userInput === "PFUbr" || userInput === "SBIsb" || userInput === "SBIss" || userInput === "SBIbb" || userInput === "SFIsb" || userInput === "SFIss" || userInput === "SFIbb" || userInput === "SFUbr") {
       $('#css_track').hide();
       $('#csharp_track').hide();
       $('#ruby_track').show();
-    } else if (userInput === "PBDsb") {
+    } else if (userInput === "PBDsb" || userInput === "PBDss" || userInput === "PBDbb" || userInput === "PBDbr" || userInput === "PBIbr" || userInput === "SBDsb" || userInput === "SBDss" || userInput === "SBDbb" || userInput === "SBDbr" || userInput === "SBIbr" || userInput === "SFIbr") {
       $('#css_track').hide();
       $('#ruby_track').hide();
       $('#csharp_track').show();
