@@ -1,6 +1,6 @@
 # _"Decide what programming language to learn!" Tracker Page_
 
-_This application creates a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio (8/10/18).
+#### _This application creates a portfolio webpage using HTML and CSS, which will later act as the landing page for my programming portfolio (8/10/18).
 
 View my portfolio through GH-Pages: taliahaller.github.io/track-suggester/._
 
