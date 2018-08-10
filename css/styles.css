@@ -1,4 +1,8 @@
 
+form {
+  display: none;
+}
+
 #css_track, #ruby_track, #csharp_track, #questionThreeFrontEnd, #questionThreeBackEnd {
   display: none;
 }
