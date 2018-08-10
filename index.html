@@ -39,36 +39,36 @@
 <!-- Form -->
 
 <div class="container">
-  <h1>Fill in the blanks to write your story!</h1>
+  <h1>What coding language should you learn? Take the quiz.</h1>
   <div>
-    <form id="track_test">
-      <div class="form-group">
-        <label for="person1">A name</label>
-        <input id="person1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="person2">Another name</label>
-        <input id="person2" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="animal">An animal</label>
-        <input id="animal" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="exclamation">An exclamation</label>
-        <input id="exclamation" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="verb">A past tense verb</label>
-        <input id="verb" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="noun">A noun</label>
-        <input id="noun" class="form-control" type="text">
-      </div>
 
-      <button type="submit" class="btn">Show me the story!</button>
+    <form id="track_test">
+
+      <select class="form-control" id="questionOne">
+        <option value="S">Self / Start-Up</option>
+        <option value="P">Professional</option>
+      </select>
+
+      <select class="form-control" id="questionTwo">
+        <option value="F">Front-End</option>
+        <option value="B">Back-End</option>
+      </select>
+
+                <!-- Hidden Form Question #3 -->
+
+                <select class="form-control" id="questionThreeFrontEnd">
+                  <option value="I">Interactive Web Applications</option>
+                  <option value="U">Dynamic User Interaces</option>
+                </select>
+
+                <select class="form-control" id="questionThreeBackEnd">
+                  <option value="I">Interactive Web Applications</option>
+                  <option value="D">Database Applications</option>
+                </select>
+
+      <button type="submit" class="btn btn-default">Find your track!</button>
     </form>
+
   </div>
 
 
