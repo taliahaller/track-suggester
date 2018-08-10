@@ -4,9 +4,9 @@ $(document).ready(function() {
       $("form").show();
     });
 
-    var sel = document.getElementById('scripts');
-    var sel_2 = document.getElementById('scripts-2');
-    var sel_3 = document.getElementById('scripts-3');
+    // var sel = document.getElementById('scripts');
+    // var sel_2 = document.getElementById('scripts-2');
+    // var sel_3 = document.getElementById('scripts-3');
 
     // alert(userInput);
   $("#trackForm").submit(function(event) {
@@ -25,11 +25,17 @@ $(document).ready(function() {
 
     event.preventDefault();
     if (userInput === "PFUsb" || userInput === "SFUsb") {
+      $('#ruby_track').hide();
+      $('#csharp_track').hide();
       $('#css_track').show();
     } else if (userInput === "PBIsb") {
-          $('#ruby_track').show();
-        } else if (userInput === "PBDsb") {
-          $('#csharp_track').show();
+      $('#css_track').hide();
+      $('#csharp_track').hide();
+      $('#ruby_track').show();
+    } else if (userInput === "PBDsb") {
+      $('#css_track').hide();
+      $('#ruby_track').hide();
+      $('#csharp_track').show();
     }
 
   });
