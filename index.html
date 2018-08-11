@@ -13,7 +13,6 @@
   </head>
 
   <body>
-
   <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -38,97 +37,118 @@
 
   <!-- Form -->
     <div class="container">
-      <h1>What coding language should you learn?</h1>
+    <h1>What coding language should you learn?</h1>
+    <button id="take" type="submit" name="button" class="btn btn-warning">Take the quiz.</button>
+    <form id="trackForm" class="trackForm">
+      <fieldset>
+        <legend>Who do you want to work for?</legend>
+        <p>
+          <select id="scripts" name="scripts">
+              <option value="S">Self / Start-Up</option>
+              <option value="P">Professional Business</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>What do you want to do?</legend>
+        <p>
+          <select id="scripts-2" name="scripts-2">
+              <option value="F">Front-End</option>
+              <option value="B">Back-End</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>What do you want to create?</legend>
+        <p>
+          <select id="scripts-3" name="scripts-3">
+              <option value="I">Interactive websites</option>
+              <option value="U">User Interfaces</option>
+              <option value="D">Databases</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>What type of company would you most like to work for?</legend>
+        <p>
+          <select id="scripts-4" name="scripts-4">
+              <option value="s">Small</option>
+              <option value="b">Big</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>What do you like best?</legend>
+        <p>
+          <select id="scripts-5" name="scripts-5">
+              <option value="s">Simplicity & Productivity</option>
+              <option value="b">Easy, Breezy, & Beautiful</option>
+              <option value="r">Complex, Robust, & Powerful</option>
+          </select>
+        </p>
+      </fieldset>
+      <button id="findOut" type="submit" class="btn btn-info">Find your track!</button>
+    </form>
 
-      <button id="take" type="submit" name="button" class="btn btn-warning">Take the quiz.</button>
-
-        <form id="trackForm" class="trackForm">
-
-
-            <fieldset>
-                <legend>Who do you want to work for?</legend>
-                <p>
-                    <select id="scripts" name="scripts">
-                        <option value="S">Self / Start-Up</option>
-                        <option value="P">Professional Business</option>
-                    </select>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend>What do you want to do?</legend>
-                <p>
-                    <select id="scripts-2" name="scripts-2">
-                        <option value="F">Front-End</option>
-                        <option value="B">Back-End</option>
-                    </select>
-              </p>
-            </fieldset>
-            <fieldset>
-                <legend>What do you want to create?</legend>
-                <p>
-                    <select id="scripts-3" name="scripts-3">
-                        <option value="I">Interactive websites</option>
-                        <option value="U">User Interfaces</option>
-                        <option value="D">Databases</option>
-                    </select>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend>What type of company would you most like to work for?</legend>
-                <p>
-                    <select id="scripts-4" name="scripts-4">
-                        <option value="s">Small</option>
-                        <option value="b">Big</option>
-                    </select>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend>What do you like best?</legend>
-                <p>
-                    <select id="scripts-5" name="scripts-5">
-                        <option value="s">Simplicity & Productivity</option>
-                        <option value="b">Easy, Breezy, & Beautiful</option>
-                        <option value="r">Complex, Robust, & Powerful</option>
-                    </select>
-                </p>
-            </fieldset>
-
-            <button id="findOut" type="submit" class="btn btn-info">Find your track!</button>
-          </form>
-            <div id="css_track">
-              <h2>CSS Track</h2>
-            </div>
-            <div id="ruby_track">
-              <h2>Ruby Track</h2>
-            </div>
-            <div id="csharp_track">
-              <h2>C# Track</h2>
-            </div>
-
-
+  <!-- Hidden Tracker Suggestions -->
+    <div id="css_track">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">CSS/React Track</div>
+              <div class="panel-body">
+                <p class="description">React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. The CSS and React combination is perfect for people who want to build something fun, stylish, and create dynamic interactive user interafaces. It is on the front-end side of things.</p>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div id="ruby_track">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">Ruby/Rails Track</div>
+              <div class="panel-body">
+                <p class="description">Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. This is a great combo for those who would like to build interactive web applications (creating accounts, entering information, and interacting with dynamic content). These programs simplicity encourages productivity and has elegant syntax that is natural to read and easy to write. Generally more on the back-end side of things.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="csharp_track">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">C#/.NET Track</div>
+              <div class="panel-body">
+                <p class="description">C# and .NET are used by larger enterprises, government agencies, and companies serving enterprise and government clients for employment. These are great programs to know for those who would like to create client applications, database applications, distributed components, and much more. This combo's focus is on the back-end. It is complex but very robust and powerful.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer Section -->
-        <footer class="container-fluid text-center">
-          <div class="row">
-            <div class="col-sm-4">
-              <h3>Contact Me</h3>
-              <br>
-              <h5>taliahaller@gmail.com | 360.791.0449</h5>
-            </div>
-            <div class="col-sm-4">
-              <img src="img/confidence.png" style="width:200px">
-            </div>
-            <div class="col-sm-4">
-              <h3>Connect</h3>
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-google"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-youtube"></a>
-            </div>
-          </div>
-          </div>
-        </footer>
-    </body>
+  <footer class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Me</h3>
+        <br>
+        <h5>taliahaller@gmail.com | 360.791.0449</h5>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/confidence.png" style="width:200px">
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </footer>
+  </body>
 </html>

@@ -1,11 +1,49 @@
 
+.container {
+  margin: 1.5% auto;
+
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+#take {
+  margin: 3% 0px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 form {
   display: none;
 }
 
-#css_track, #ruby_track, #csharp_track, #questionThreeFrontEnd, #questionThreeBackEnd {
+#css_track, #ruby_track, #csharp_track{
   display: none;
 }
+
+/* #css_track, #ruby_track, #csharp_track{
+
+} */
+
+.col-md-6 {
+  background-color: grey;
+  margin-left: 1%;
+}
+
+#findOut {
+  margin: 3% 0px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
 
 
 footer {
@@ -13,6 +51,8 @@ footer {
   background-color: #242022;
   padding: 3%;
   color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 .fa {
