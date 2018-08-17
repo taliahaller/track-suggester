@@ -17,8 +17,7 @@ $(document).ready(function() {
       $('#ruby_track').hide();
       $('#csharp_track').hide();
       $('#css_track').show();
-    } else if (userInput === "PBIsb" || userInput === "PBIss" || userInput === "PBIbb" || userInput === "PFIss" || userInput === "PFIbb" || userInput === "PFIbr" || userInput === "PFUbr" || userInput === "SBIsb" || userInput === "SBIss" || userInput === "SBIbb" || userInput === "SFIsb" || userInput === "SFIss" || userInput === "SFIbb" || userInput === "SFUbr")
-    {
+    } else if (userInput === "PBIsb" || userInput === "PBIss" || userInput === "PBIbb" || userInput === "PFIss" || userInput === "PFIbb" || userInput === "PFIbr" || userInput === "PFUbr" || userInput === "SBIsb" || userInput === "SBIss" || userInput === "SBIbb" || userInput === "SFIsb" || userInput === "SFIss" || userInput === "SFIbb" || userInput === "SFUbr") {
       $('#css_track').hide();
       $('#csharp_track').hide();
       $('#ruby_track').show();
