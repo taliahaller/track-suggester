@@ -13,6 +13,8 @@ $(document).ready(function() {
       userInput.push(inputQuestion)};
     userInput = userInput.join("");
 
+    // Symbolic letters are defined in the index.html section where the questions are asked. Each letter corresponds to an answer to a question. The string gives the combination of answers and correlates to a path.
+
     if (userInput === "PFIsb" || userInput === "PFUsb" || userInput === "PFUss" || userInput === "PFUbb" || userInput === "SFUsb" || userInput === "SFUss" || userInput === "SFUbb") {
       $('#ruby_track').hide();
       $('#csharp_track').hide();
