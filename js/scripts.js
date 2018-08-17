@@ -1,16 +1,16 @@
 $(document).ready(function() {
 
-  $("button#take").click(function() {
+  $("button#takeQuiz").click(function() {
     $("form").show();
   });
 
   $("#trackForm").submit(function(event) {
-    var sel = document.getElementById('scripts').value;
-    var sel_2 = document.getElementById('scripts-2').value;
-    var sel_3 = document.getElementById('scripts-3').value;
-    var sel_4 = document.getElementById('scripts-4').value;
-    var sel_5 = document.getElementById('scripts-5').value;
-    var userInput = sel + sel_2 + sel_3 + sel_4 + sel_5;
+    var answer = document.getElementById('question').value;
+    var answer_2 = document.getElementById('question-2').value;
+    var answer_3 = document.getElementById('question-3').value;
+    var answer_4 = document.getElementById('question-4').value;
+    var answer_5 = document.getElementById('question-5').value;
+    var userInput = answer + answer_2 + answer_3 + answer_4 + answer_5;
 
     event.preventDefault();
     if (userInput === "PFIsb" || userInput === "PFUsb" || userInput === "PFUss" || userInput === "PFUbb" || userInput === "SFUsb" || userInput === "SFUss" || userInput === "SFUbb") {

@@ -1,14 +1,9 @@
 
 .container {
   margin: 1.5% auto;
-
 }
 
-/* h1 {
-  text-align: center;
-} */
-
-#take {
+#takeQuiz {
   margin: 3% 0px;
   padding: 15px 32px;
   text-align: center;
@@ -25,10 +20,6 @@ form {
   display: none;
 }
 
-/* #css_track, #ruby_track, #csharp_track{
-
-} */
-
 .col-md-6 {
   background-color: grey;
   margin-left: 1%;
@@ -42,9 +33,6 @@ form {
   display: inline-block;
   font-size: 16px;
 }
-
-
-
 
 footer {
   width: 100%;
